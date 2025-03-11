@@ -5,7 +5,7 @@ Berikut adalah langkah-langkah singkat untuk membuat repository GitHub dan melak
 
 Langkah-langkah Script R:
 
-Import dan Preprocessing:
+Import dan Preprocessing:\n
 Dataset customer_segments.txt diimpor dengan menggunakan read.csv dan diproses untuk mengubah kolom kategori (Jenis Kelamin, Profesi, Tipe Residen) menjadi numerik menggunakan data.matrix.
 
 Normalisasi:
