@@ -1,28 +1,28 @@
 # Data-Science-in-Marketing-Customer-Segmentation
-Analysis Segmentation Customer Data using Clustering K-Means with R
+## Analysis Segmentation Customer Data using Clustering K-Means with R
 
 Berikut adalah langkah-langkah singkat untuk membuat repository GitHub dan melakukan clustering menggunakan K-Means pada dataset yang Anda berikan:
 
 Langkah-langkah Script R:
 
-Import dan Preprocessing:
+### Import dan Preprocessing :
 
 Dataset customer_segments.txt diimpor dengan menggunakan read.csv dan diproses untuk mengubah kolom kategori (Jenis Kelamin, Profesi, Tipe Residen) menjadi numerik menggunakan data.matrix.
 
-Normalisasi:
+### Normalisasi :
 
 Kolom NilaiBelanjaSetahun dinormalisasi dengan membagi nilai dengan 1.000.000.
 
-Clustering dengan K-Means:
+### Clustering dengan K-Means:
 
 K-Means digunakan untuk membagi data menjadi 5 cluster dengan fitur Jenis.Kelamin, Umur, Profesi, Tipe.Residen, dan NilaiBelanjaSetahun.
 Algoritma dijalankan 25 kali untuk hasil yang lebih stabil.
 
-Metode Elbow untuk Menentukan Jumlah Cluster Optimal:
+### Metode Elbow untuk Menentukan Jumlah Cluster Optimal:
 
 Metode Elbow digunakan untuk menentukan jumlah cluster terbaik dengan menganalisis SSE (Sum of Squared Errors) pada jumlah cluster dari 1 hingga 10.
 
-Penamaan Segmen dan Penyimpanan Model:
+### Penamaan Segmen dan Penyimpanan Model:
 
 Setiap cluster diberi nama segmen. Nama Segmen dikategorikan lewat Cluster sebagai berikut :
 
